@@ -1,31 +1,16 @@
 {
   "expo": {
-    "name": "hello-world",
-    "slug": "reagent-expo",
-    "privacy": "public",
-    "entryPoint": "./app/index.js",
-    "sdkVersion": "35.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "cljsrnexample",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "entryPoint": "./app/index.js",
+    "version": "1.0.0",
+    "slug": "cljs-rn-example",
+    "sdkVersion": "35.0.0",
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.example.cljsrn"
+    },
+    "android": {
+      "package": "com.example.cljsrn"
     }
   }
 }
